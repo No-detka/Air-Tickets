@@ -1,0 +1,19 @@
+﻿.layout {
+  min-height: 100vh;
+  max-width: 727px;
+  margin: 0 auto;
+  padding-left: 50px;
+
+  @media screen and (max-width: 1300px) {
+    width: 95%;
+    padding-left: 0;
+  }
+}
+
+.ticketbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  position: relative;
+}
